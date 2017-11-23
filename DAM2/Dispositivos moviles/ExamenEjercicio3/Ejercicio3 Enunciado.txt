@@ -1,0 +1,7 @@
+Crear una clase para gestionar potencias de numeros(con base y exponente). 
+Deberá permitir las siguientes opciones: 
+Multiplicar dos potencias, 
+dividir 2 potencias, 
+obtener el valor numerico de una potencia, y 
+elevar una potencia a un exponente dado. 
+Completar con un programa principal que cree potencias, llame a los métodos anteriores e imprima por pantalla la potencia con la base y el exponente mas alto.

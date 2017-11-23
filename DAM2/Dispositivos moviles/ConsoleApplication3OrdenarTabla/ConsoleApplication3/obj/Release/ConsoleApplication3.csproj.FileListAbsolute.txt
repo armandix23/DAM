@@ -1,0 +1,5 @@
+c:\users\joseluis\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe.config
+c:\users\joseluis\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe
+c:\users\joseluis\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.pdb
+c:\users\joseluis\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.exe
+c:\users\joseluis\documents\visual studio 2015\Projects\ConsoleApplication3\ConsoleApplication3\obj\Release\ConsoleApplication3.pdb

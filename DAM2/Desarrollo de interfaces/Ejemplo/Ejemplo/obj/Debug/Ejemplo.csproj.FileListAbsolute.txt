@@ -1,0 +1,9 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\bin\Debug\Ejemplo.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\bin\Debug\Ejemplo.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\bin\Debug\Ejemplo.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.Form1.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.Properties.Resources.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.csproj.GenerateResource.Cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Ejemplo\Ejemplo\obj\Debug\Ejemplo.pdb

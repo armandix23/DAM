@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\bin\Debug\ConsoleAplicacion3.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\bin\Debug\ConsoleAplicacion3.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\bin\Debug\ConsoleAplicacion3.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\obj\Debug\ConsoleAplicacion3.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\obj\Debug\ConsoleAplicacion3.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\02 - C#\ConsoleAplicacion3\ConsoleAplicacion3\obj\Debug\ConsoleAplicacion3.pdb

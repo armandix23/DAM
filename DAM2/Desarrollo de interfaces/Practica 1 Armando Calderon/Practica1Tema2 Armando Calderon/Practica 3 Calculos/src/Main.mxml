@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   width="821" height="464" minWidth="955" minHeight="600">
+	
+	<fx:Script>
+		<![CDATA[
+			import flash.globalization.NumberFormatter;
+			
+			import mx.controls.Alert;
+			import mx.events.CloseEvent;
+			
+			import spark.events.IndexChangeEvent;
+			import spark.events.TextOperationEvent;
+				
+			
+			// Evento click calculadora
+			protected function radiobutton1_clickHandler(event:MouseEvent):void
+			{
+				if(	login.enabled == 0){
+					if(radiobutton1.selected){
+					panel2.enabled = false;
+					panel3.enabled = true;
+					
+					}
+				}
+			}
+			
+			// Evento click pitagoras
+			protected function radiobutton2_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				if(	login.enabled == 0){
+					if(radiobutton2.selected){
+					panel2.enabled = true;
+					panel3.enabled = false;
+					hipote.enabled = false;
+					}
+				}
+			}
+			
+			// Evento Login
+			protected function button1_clickHandler(event:MouseEvent):void
+			{
+				if (user.text.length !=0 && pass.text.length !=0 && user.text == pass.text){
+					
+					login.enabled = false
+					user.text = ""
+					pass.text = ""
+					user.enabled = false
+					pass.enabled = false
+						
+					if(radiobutton1.selected){
+						panel3.enabled = true
+					}
+						
+					
+				}else{
+					Alert.show
+						('Login invalido', 'Error', mx.controls.Alert.OK);
+						
+				}
+				
+			}
+			
+			// Evento LOGOUT
+			protected function button3_clickHandler(event:MouseEvent):void
+			{
+						Alert.show('Salir', '¿Esta seguro?', Alert.OK |  Alert.CANCEL, this, botonsalir);
+			}
+			protected function botonsalir(event:CloseEvent):void
+			{
+				if (event.detail == Alert.OK){
+					panel2.enabled = false;
+					panel3.enabled = false;
+					login.enabled = true;
+					user.enabled = true
+					pass.enabled = true
+				}
+			}
+			
+			// Evento reiniciar pitagoras
+			protected function button2_clickHandler(event:MouseEvent):void
+			{
+				cateto1.text="";
+				cateto2.text="";
+				hipote.text="";
+			}
+			
+			
+			
+			// Calcular pitagoras
+			protected function image1_clickHandler(event:MouseEvent):void
+			{
+				hipote.text = (Math.sqrt(Math.pow(parseFloat(cateto1.text), 2) + Math.pow(parseFloat(cateto2.text), 2) )).toString();
+			}
+			
+			
+			// Calculadora 
+			
+			var valor:String = "";
+			var pos:Number = 0;
+			
+			function guarda_Valor(){
+				
+				//Area Ope // Ponemos esto para cuando salga un valor se borre y coja el siguiente caracter
+				pos = Number(areaOpe.text); 
+				areaOpe.text = " ";
+				
+			}
+			function resultado(){
+				
+				// Al esta pos en Number y el cuadro en String salta error y lo cambiamos a toString
+				
+				if(valor == "+" )
+					areaRes.text = (pos + Number(areaOpe.text)).toString(); 
+				else if(valor == "-")
+					areaRes.text = (pos - Number(areaOpe.text)).toString();
+				else if(valor == "x")
+					areaRes.text = (pos * Number(areaOpe.text)).toString();
+				else if(valor == "/")
+					areaRes.text = (pos / Number(areaOpe.text)).toString();
+				
+				
+			}
+			
+			// Calculadora
+			protected function b1_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "1";
+				this.areaMostrar.text += "1";
+			}
+			
+			protected function b2_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "2";
+				this.areaMostrar.text += "2";
+			}
+			protected function b3_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "3";
+				this.areaMostrar.text += "3";
+			}
+			protected function b4_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "4";
+				this.areaMostrar.text += "4";
+			}
+			protected function b5_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "5";
+				this.areaMostrar.text += "5";
+			}
+			protected function b6_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "6";
+				this.areaMostrar.text += "6";
+			}
+			protected function b7_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "7";
+				this.areaMostrar.text += "7";
+			}
+			protected function b8_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "8";
+				this.areaMostrar.text += "8";
+			}
+			protected function b9_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "9";
+				this.areaMostrar.text += "9";
+			}
+			protected function b0_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				this.areaOpe.text += "0";
+				this.areaMostrar.text += "0";
+			}
+			
+			protected function bsum_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				guarda_Valor();
+				valor = "+";
+				this.areaMostrar.text += " + ";
+			}
+			
+			protected function bmen_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				//this.areaOpe.text += "-";
+				guarda_Valor();
+				valor = "-";
+				this.areaMostrar.text += " - ";
+			}
+			
+			protected function bpor_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				//this.areaOpe.text += "*";
+				guarda_Valor();
+				valor = "x";
+				this.areaMostrar.text += " * ";
+			}
+			
+			protected function bent_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				//this.areaOpe.text += "/";
+				guarda_Valor();
+				valor = "/";
+				this.areaMostrar.text += " / ";
+			}
+			
+			protected function bigual_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				resultado();
+			}
+			
+			// Limpiar calculadora
+			protected function bc_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				areaRes.text = " ";
+				areaOpe.text = " ";
+				areaMostrar.text = " ";
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<s:RadioButtonGroup id="radiobuttonAcceso"/>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Panel id="panel1" x="154" y="76" width="271" height="164" fontSize="14" title="Acceso">
+		<s:Button id="login" x="62" y="83" height="30" label="Login"
+				  click="button1_clickHandler(event)"/>
+		<s:Button id="logout" x="145" y="84" height="29" label="Logout"
+				  click="button3_clickHandler(event)" enabled="true"/>
+		<s:Label x="169" y="10" width="48" height="24" text="Activar:"/>
+		<s:RadioButton id="radiobutton1" x="169" y="29" label="Calculadora"
+					   click="radiobutton1_clickHandler(event)" enabled="true"
+					   groupName="AccesoButtonGroup" selected="true"/>
+		<s:RadioButton id="radiobutton2" x="169" y="55" label="Pitágoras"
+					   click="radiobutton2_clickHandler(event)" enabled="true"
+					   groupName="AccesoButtonGroup"/>
+		<s:TextInput id="user" x="23" y="9" width="128" height="28" prompt="Login"/>
+		<s:TextInput id="pass" x="23" y="45" width="128" height="28" prompt="Password" displayAsPassword ="true"/>
+	</s:Panel>
+	<s:Panel id="panel3" x="429" y="76" width="250" height="342" enabled="false" fontSize="14"
+			 title="Calculadora sencilla">
+		<s:TextInput id="areaOpe" x="6" y="3" width="236" height="22" enabled="false" fontSize="16"
+					 textAlign="right"/>
+		<s:TextInput id="areaRes" x="6" y="27" width="236" height="43" enabled="false" fontSize="20"
+					 textAlign="right"/>
+		
+		
+		
+		
+				<s:Button id="b1" x="6" y="74" width="56" height="54" label="1"
+						  click="b1_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b2" x="66" y="74" width="56" height="54" label="2"
+						  click="b2_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b3" x="125" y="74" width="56" height="54" label="3"
+						  click="b3_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bsum" x="185" y="74" width="56" height="54" label="+"
+						  click="bsum_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b4" x="6" y="132" width="56" height="54" label="4"
+						  click="b4_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b5" x="66" y="132" width="56" height="54" label="5"
+						  click="b5_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b6" x="125" y="132" width="56" height="54" label="6"
+						  click="b6_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bmen" x="185" y="132" width="56" height="54" label="-"
+						  click="bmen_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b7" x="6" y="190" width="56" height="54" label="7"
+						  click="b7_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b8" x="66" y="190" width="56" height="54" label="8"
+						  click="b8_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b9" x="125" y="190" width="56" height="54" label="9"
+						  click="b9_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bpor" x="185" y="190" width="56" height="54" label="X"
+						  click="bpor_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bc" x="6" y="247" width="56" height="54" label="C"
+						  click="bc_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="b0" x="66" y="247" width="56" height="54" label="0"
+						  click="b0_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bigual" x="125" y="247" width="56" height="54" label="="
+						  click="bigual_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+				<s:Button id="bent" x="185" y="247" width="56" height="54" label="/"
+						  click="bent_clickHandler(event)" fontFamily="Arial" fontSize="30"
+						  fontWeight="normal"/>
+		<s:TextInput id="areaMostrar" x="6" y="3" width="236" height="22" enabled="false"
+					 fontSize="18" fontWeight="normal" textAlign="right"/>
+			
+		
+		
+		
+		
+	</s:Panel>
+	<s:Panel id="panel2" x="154" y="248" width="272" height="170" enabled="false" fontSize="13"
+			 title="Teorema de Pitágoras">
+		<s:Button x="159" y="-24" width="103" height="20" label="Reiniciar"
+				  click="button2_clickHandler(event)"/>
+		<s:TextInput id="cateto2" x="159" y="51" width="103" height="35" prompt="Cateto 2"/>
+		<s:TextInput id="hipote" x="159" y="92" width="103" height="34" prompt="Hipotenusa"/>
+		<s:TextInput id="cateto1" x="159" y="9" width="103" height="35" prompt="Cateto 1"/>
+		<s:Image x="10" y="0" width="141" height="137" click="image1_clickHandler(event)"
+				 source="@Embed('file:///C:/Users/Ar/Desktop/DAM/Sin título.jpg')"/>
+	</s:Panel>
+</s:Application>

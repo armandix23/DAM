@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\bin\Debug\EjercicioNombres.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\bin\Debug\EjercicioNombres.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\bin\Debug\EjercicioNombres.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\obj\Debug\EjercicioNombres.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\obj\Debug\EjercicioNombres.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjercicioNombres\EjercicioNombres\obj\Debug\EjercicioNombres.pdb

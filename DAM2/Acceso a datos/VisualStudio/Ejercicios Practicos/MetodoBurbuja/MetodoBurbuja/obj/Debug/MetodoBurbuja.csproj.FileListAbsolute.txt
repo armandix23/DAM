@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\bin\Debug\MetodoBurbuja.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\bin\Debug\MetodoBurbuja.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\bin\Debug\MetodoBurbuja.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\obj\Debug\MetodoBurbuja.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\obj\Debug\MetodoBurbuja.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\MetodoBurbuja\MetodoBurbuja\obj\Debug\MetodoBurbuja.pdb

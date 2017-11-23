@@ -1,0 +1,6 @@
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\bin\Debug\ConsoleApplicationFormasdeOperar.exe.config
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\obj\Debug\ConsoleApplicationFormasdeOperar.csprojResolveAssemblyReference.cache
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\bin\Debug\ConsoleApplicationFormasdeOperar.exe
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\bin\Debug\ConsoleApplicationFormasdeOperar.pdb
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\obj\Debug\ConsoleApplicationFormasdeOperar.exe
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationFormasdeOperar\ConsoleApplicationFormasdeOperar\obj\Debug\ConsoleApplicationFormasdeOperar.pdb

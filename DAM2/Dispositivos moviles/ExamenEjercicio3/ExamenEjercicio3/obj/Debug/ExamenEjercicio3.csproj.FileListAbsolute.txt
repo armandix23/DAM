@@ -1,0 +1,6 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\bin\Debug\ExamenEjercicio3.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\bin\Debug\ExamenEjercicio3.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\bin\Debug\ExamenEjercicio3.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\obj\Debug\ExamenEjercicio3.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\obj\Debug\ExamenEjercicio3.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\ExamenEjercicio3\ExamenEjercicio3\obj\Debug\ExamenEjercicio3.pdb

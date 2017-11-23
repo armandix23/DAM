@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.pdb

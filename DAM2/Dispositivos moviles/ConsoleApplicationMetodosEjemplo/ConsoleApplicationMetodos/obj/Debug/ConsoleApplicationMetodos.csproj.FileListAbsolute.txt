@@ -1,0 +1,6 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\bin\Debug\ConsoleApplicationMetodos.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationMetodos\ConsoleApplicationMetodos\obj\Debug\ConsoleApplicationMetodos.pdb

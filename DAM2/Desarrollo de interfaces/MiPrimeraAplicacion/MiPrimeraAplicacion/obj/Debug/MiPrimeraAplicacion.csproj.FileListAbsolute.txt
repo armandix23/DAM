@@ -1,0 +1,9 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\MiPrimeraAplicacion.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\MiPrimeraAplicacion.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\MiPrimeraAplicacion.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.Properties.Resources.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.csproj.GenerateResource.Cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\MiPrimeraAplicacion.botonPulsar.resources

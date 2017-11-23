@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\bin\Debug\Metodos.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\bin\Debug\Metodos.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\bin\Debug\Metodos.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\obj\Debug\Metodos.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\obj\Debug\Metodos.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\EjerciciosMetodos\Metodos\Metodos\obj\Debug\Metodos.csprojResolveAssemblyReference.cache

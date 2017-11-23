@@ -1,0 +1,6 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\bin\Debug\EmpresaMoviles.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\bin\Debug\EmpresaMoviles.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\bin\Debug\EmpresaMoviles.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\obj\Debug\EmpresaMoviles.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\obj\Debug\EmpresaMoviles.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EmpresaMoviles\EmpresaMoviles\obj\Debug\EmpresaMoviles.pdb

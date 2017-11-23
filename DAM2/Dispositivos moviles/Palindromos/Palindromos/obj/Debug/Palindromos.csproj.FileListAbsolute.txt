@@ -1,0 +1,6 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\bin\Debug\Palindromos.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\bin\Debug\Palindromos.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\bin\Debug\Palindromos.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\obj\Debug\Palindromos.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\obj\Debug\Palindromos.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Palindromos\Palindromos\obj\Debug\Palindromos.pdb

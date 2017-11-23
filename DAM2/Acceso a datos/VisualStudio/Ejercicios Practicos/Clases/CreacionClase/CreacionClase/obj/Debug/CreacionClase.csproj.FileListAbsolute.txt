@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\bin\Debug\CreacionClase.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\bin\Debug\CreacionClase.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\bin\Debug\CreacionClase.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\obj\Debug\CreacionClase.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\obj\Debug\CreacionClase.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Ejercicios Practicos\Clases\CreacionClase\CreacionClase\obj\Debug\CreacionClase.pdb

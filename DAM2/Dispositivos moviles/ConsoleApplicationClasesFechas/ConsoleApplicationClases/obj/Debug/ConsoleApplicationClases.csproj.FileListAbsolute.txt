@@ -1,0 +1,6 @@
+c:\users\ar\documents\visual studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\bin\Debug\ConsoleApplicationClases.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\bin\Debug\ConsoleApplicationClases.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\bin\Debug\ConsoleApplicationClases.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\obj\Debug\ConsoleApplicationClases.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\obj\Debug\ConsoleApplicationClases.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\ConsoleApplicationClases\ConsoleApplicationClases\obj\Debug\ConsoleApplicationClases.pdb

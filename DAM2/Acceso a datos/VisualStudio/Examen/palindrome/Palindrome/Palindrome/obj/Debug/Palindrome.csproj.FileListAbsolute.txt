@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\bin\Debug\Palindrome.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\bin\Debug\Palindrome.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\bin\Debug\Palindrome.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\obj\Debug\Palindrome.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\obj\Debug\Palindrome.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\palindrome\Palindrome\Palindrome\obj\Debug\Palindrome.pdb

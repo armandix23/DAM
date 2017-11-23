@@ -1,0 +1,6 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\bin\Debug\EjercicioTelevision.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\bin\Debug\EjercicioTelevision.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\bin\Debug\EjercicioTelevision.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\obj\Debug\EjercicioTelevision.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\obj\Debug\EjercicioTelevision.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\EjercicioTelevision\EjercicioTelevision\obj\Debug\EjercicioTelevision.pdb

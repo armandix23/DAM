@@ -1,0 +1,9 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.Properties.Resources.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.csproj.GenerateResource.Cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4\Practica4\obj\Debug\Practica4.pdb

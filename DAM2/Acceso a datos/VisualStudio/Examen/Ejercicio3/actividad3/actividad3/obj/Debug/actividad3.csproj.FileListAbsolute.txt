@@ -1,0 +1,6 @@
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\bin\Debug\actividad3.exe.config
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\bin\Debug\actividad3.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\bin\Debug\actividad3.pdb
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\obj\Debug\actividad3.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\obj\Debug\actividad3.exe
+C:\Users\David\Documents\GitHub\Davilin28\2DAM\2DAM\Acceso a datos\VisualStudio\Examen\Ejercicio3\actividad3\actividad3\obj\Debug\actividad3.pdb
