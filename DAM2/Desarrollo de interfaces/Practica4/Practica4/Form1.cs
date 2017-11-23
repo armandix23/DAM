@@ -12,43 +12,37 @@ namespace Practica4
 {
     public partial class Form1 : Form
     {
-        List<CheckBox> chkLst = new List<CheckBox>();
+        int numMax, numSel;
       
 
 
         public Form1()
         {
             InitializeComponent();
+        }
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(comboBox1.SelectedIndex != -1)
+            {
+                if (radioButton2.Checked)
+                {
+                    switch (comboBox1.SelectedIndex)
+                    {
+                        case 0: //Simple
+                            for (int i = 0; i < 16; i++)
+                                numeros[i].Checked = false;
+                            numSel = 0;
+                            numMax = 4;
+                            automatico();
+                            reintegro();
+                            break;
+                    }
+                }
+            }
 
-            // Lista de checkboxes
-            var checks = new List<CheckBox>();
-            checks.Add(checkBox1);
-            checks.Add(checkBox2);
-            checks.Add(checkBox3);
-            checks.Add(checkBox4);
-            checks.Add(checkBox5);
-            checks.Add(checkBox6);
-            checks.Add(checkBox7);
-            checks.Add(checkBox8);
-            checks.Add(checkBox9);
-            checks.Add(checkBox10);
-            checks.Add(checkBox11);
-            checks.Add(checkBox12);
-            checks.Add(checkBox13);
-            checks.Add(checkBox14);
-            checks.Add(checkBox15);
-            checks.Add(checkBox16);
-            // Opciones combo de apuestas
-            var apuestas = new List<KeyValuePair<string, int>>
-    {
-        new KeyValuePair<string, int>("", 0),
-        new KeyValuePair<string, int>("Sencilla (4)", 4),
-        new KeyValuePair<string, int>("Compleja (6)", 6)
-    };
 
 
         }
-
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
@@ -98,100 +92,7 @@ namespace Practica4
             } 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var checks = new List<CheckBox>();
-            checks.Add(checkBox1);
-            checks.Add(checkBox2);
-            checks.Add(checkBox3);
-            checks.Add(checkBox4);
-            checks.Add(checkBox5);
-            checks.Add(checkBox6);
-            checks.Add(checkBox7);
-            checks.Add(checkBox8);
-            checks.Add(checkBox9);
-            checks.Add(checkBox10);
-            checks.Add(checkBox11);
-            checks.Add(checkBox12);
-            checks.Add(checkBox13);
-            checks.Add(checkBox14);
-            checks.Add(checkBox15);
-            checks.Add(checkBox16);
-
-            //SENCILLA
-            if (comboBox1.SelectedIndex == 0) { 
-                radioButton1.Enabled = true;
-                radioButton2.Enabled = true;
-                dateTimePicker1.Enabled = true;
-                button3.Enabled = true;
-
-                if(radioButton1.Checked == true)
-                panel1.Enabled = true;
-                else
-                panel1.Enabled = false;
-
-            for (int i = 0; i <= 4; i++)
-            {
-
-                var r = random.Next(0, checks.Count);
-                var checkbox = checks[r];
-                checkbox.Checked = true;
-            }
-            }
-            // MULTIPLE
-            if (comboBox1.SelectedIndex == 1) { 
-                
-                radioButton1.Enabled = true;
-                radioButton2.Enabled = true;
-                dateTimePicker1.Enabled = true;
-                button3.Enabled = true;
-
-                 if (radioButton1.Checked == true)
-                panel1.Enabled = true;
-                else
-                panel1.Enabled = false;
-
-            for (int i = 0; i <= 6; i++)
-            {
-
-                var r = random.Next(0, checks.Count);
-                var checkbox = checks[r];
-                checkbox.Checked = true;
-            }
-            }
-            //EXTREMO
-            if (comboBox1.SelectedIndex == 2) { 
-                
-                radioButton1.Enabled = true;
-                radioButton2.Enabled = true;
-                dateTimePicker1.Enabled = true;
-                button3.Enabled = true;
-
-                if (radioButton1.Checked == true)
-                panel1.Enabled = true;
-                 else
-                panel1.Enabled = false;
-
-                 for (int i = 0; i <= 8; i++)
-                  {
-
-                var r = random.Next(0, checks.Count);
-                var checkbox = checks[r];
-                checkbox.Checked = true;
-                 }
-            }
-
-            Random rnd = new Random(Guid.NewGuid().GetHashCode());
-            if (comboBox1.SelectedItem == "SENCILLA") 
-                textBox1.Text = Convert.ToString(rnd.Next(1, 10));
-                if (comboBox1.SelectedItem == "MULTIPLE")
-                textBox1.Text = Convert.ToString(rnd.Next(1, 10));
-                     if (comboBox1.SelectedItem == "EXTREMA")
-                         textBox1.Text = Convert.ToString(rnd.Next(1, 10));
-
-            
-
-        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
