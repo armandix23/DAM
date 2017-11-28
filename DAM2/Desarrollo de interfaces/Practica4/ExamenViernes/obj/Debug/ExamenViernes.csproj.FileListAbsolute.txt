@@ -8,3 +8,12 @@ C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Exa
 C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\ExamenViernes\ExamenViernes\obj\Debug\ExamenViernes.exe
 C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\ExamenViernes\ExamenViernes\obj\Debug\ExamenViernes.pdb
 C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\ExamenViernes\ExamenViernes\obj\Debug\ExamenViernes.Form2.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\bin\Debug\ExamenViernes.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\bin\Debug\ExamenViernes.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\bin\Debug\ExamenViernes.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.Form1.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.Properties.Resources.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Desarrollo de aplicaciones\Practica4-GOOD\ExamenViernes\obj\Debug\ExamenViernes.csproj.GenerateResource.Cache
