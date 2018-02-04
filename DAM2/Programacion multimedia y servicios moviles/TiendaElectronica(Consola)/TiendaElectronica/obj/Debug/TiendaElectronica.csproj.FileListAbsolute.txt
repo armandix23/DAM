@@ -1,0 +1,7 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica\TiendaElectronica\bin\Debug\TiendaElectronica.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\bin\Debug\TiendaElectronica.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\bin\Debug\TiendaElectronica.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\bin\Debug\TiendaElectronica.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\obj\Debug\TiendaElectronica.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\obj\Debug\TiendaElectronica.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\TiendaElectronica(Consola)\TiendaElectronica\obj\Debug\TiendaElectronica.pdb

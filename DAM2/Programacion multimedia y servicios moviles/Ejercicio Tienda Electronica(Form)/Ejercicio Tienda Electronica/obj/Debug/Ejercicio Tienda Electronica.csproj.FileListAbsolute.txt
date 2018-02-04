@@ -1,0 +1,12 @@
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\bin\Debug\Ejercicio Tienda Electronica.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\bin\Debug\Ejercicio Tienda Electronica.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\bin\Debug\Ejercicio Tienda Electronica.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.csprojResolveAssemblyReference.cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio_Tienda_Electronica.Form1.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio_Tienda_Electronica.Properties.Resources.resources
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.csproj.GenerateResource.Cache
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.pdb
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica(Form)\Ejercicio Tienda Electronica\bin\Debug\Ejercicio Tienda Electronica.exe.config
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica(Form)\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.exe
+C:\Users\Ar\Documents\Visual Studio 2015\Projects\Mobiles\Ejercicio Tienda Electronica(Form)\Ejercicio Tienda Electronica\obj\Debug\Ejercicio Tienda Electronica.pdb
