@@ -4,27 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio_Tienda_Electronica
+namespace Ejercicio_Tienda_Electronica.Class
 {
     class Ordenador : Productos
     {
-        int velocidad;
-        int npuertos;
+        private int velocidad;
+        private int npuertos;
 
-        public Ordenador()
+        
+        public Ordenador() : base()
         {
-            velocidad = 0;
-            npuertos = 0;
+            Velocidad = 0;
+            Npuertos = 0;
         }
 
         public Ordenador(int velocidad, int npuertos, string n, string ma, int me, int p) : base(n, ma, me, p)
         {
-            this.velocidad = velocidad;
-            this.npuertos = npuertos;
-            this.nombre = n;
-            this.marca = ma;
-            this.memoriaRAM = me;
-            this.precio = p;
+            this.Velocidad = velocidad;
+            this.Npuertos = npuertos;
         }
+
+        public int Velocidad
+        {
+            get
+            {
+                return velocidad;
+            }
+
+            set
+            {
+                velocidad = value;
+            }
+        }
+
+        public int Npuertos
+        {
+            get
+            {
+                return npuertos;
+            }
+
+            set
+            {
+                npuertos = value;
+            }
+        }
+
     }
 }

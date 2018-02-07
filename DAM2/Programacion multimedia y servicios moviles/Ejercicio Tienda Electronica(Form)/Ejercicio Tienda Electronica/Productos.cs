@@ -8,25 +8,79 @@ namespace Ejercicio_Tienda_Electronica
 {
     class Productos
     {
-        protected string nombre;
-        protected string marca;
-        protected int memoriaRAM;
-        protected int precio;
+        private string nombre;
+        private string marca;
+        private int memoriaRAM;
+        private int precio;
+
+        
 
         public Productos()
         {
-            nombre = "";
-            marca = "";
-            memoriaRAM = 0;
-            precio = 0;
+            Nombre = "";
+            Marca = "";
+            MemoriaRAM = 0;
+            Precio = 0;
         }
 
         public Productos(string nombre, string marca, int memoriaRAM, int precio)
         {
-            this.nombre = nombre;
-            this.marca = marca;
-            this.memoriaRAM = memoriaRAM;
-            this.precio = precio;
+            this.Nombre = nombre;
+            this.Marca = marca;
+            this.MemoriaRAM = memoriaRAM;
+            this.Precio = precio;
+        }
+
+        protected string Nombre
+        {
+            get
+            {
+                return nombre;
+            }
+
+            set
+            {
+                nombre = value;
+            }
+        }
+
+        protected string Marca
+        {
+            get
+            {
+                return marca;
+            }
+
+            set
+            {
+                marca = value;
+            }
+        }
+
+        protected int MemoriaRAM
+        {
+            get
+            {
+                return memoriaRAM;
+            }
+
+            set
+            {
+                memoriaRAM = value;
+            }
+        }
+
+        protected int Precio
+        {
+            get
+            {
+                return precio;
+            }
+
+            set
+            {
+                precio = value;
+            }
         }
     }
     
