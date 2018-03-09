@@ -1,0 +1,7 @@
+---dimelahora---
+#!/bin/sh
+while sleep 60
+do
+date +"Son las %k y %M" | festival --tts --language spanish
+done
+---dimelahora---

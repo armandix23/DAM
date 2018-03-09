@@ -1,0 +1,2 @@
+gcc hilos.c -lpthread -o hilos.o
+

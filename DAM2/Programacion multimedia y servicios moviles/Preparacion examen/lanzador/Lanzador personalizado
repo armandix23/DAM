@@ -1,0 +1,43 @@
+
+
+#!/bin/bash
+
+read -p "Nombre del lanzador: " NOMBRE                      # Se nos pide el nombre del lanzador.
+if [ -e /usr/share/applications/$NOMBRE.desktop ]; then     # Si el lanzador ya existe...
+ echo "ERROR: El lanzador ya existe.  Abortado."
+ exit                                                # ...salimos del script.
+fi
+
+read -p "Ruta completa del archivo ejecutable: " RUTAEXE    # Se nos pide la ruta completa del archivo ejecutable.
+if [ ! -e $RUTAEXE ]; then                                  # Si el archivo ejecutable no existe...
+ echo "ERROR: El archivo no existe.  Abortado."
+ exit                                                # ...salimos del script.
+elif [ ! -x $RUTAEXE ]; then                                # O si el archivo no es ejecutable...
+ echo "ERROR: El archivo no es ejecutable.  Abortado."
+ exit                                                # ...salimos del script.
+fi
+
+read -p "Ruta completa del archivo de icono: " RUTAICO      # Se nos pide la ruta completa del archivo de icono.
+if [ ! -e $RUTAICO ]; then                                  # Si el archivo de icono no existe...
+ echo "ERROR: El archivo no existe.  Abortado."
+ exit                                                # ...salimos del script.
+fi
+
+echo "[Desktop Entry]" > $NOMBRE.desktop                    # Creamos el archivo lanzador
+echo "Type=Application" >> $NOMBRE.desktop                  # escribiendo en él los datos
+echo "Terminal=false" >> $NOMBRE.desktop                    # anteriormente facilitados.
+echo "Name=$NOMBRE" >> $NOMBRE.desktop
+echo "Exec=$RUTAEXE" >> $NOMBRE.desktop
+echo "Icon=$RUTAICO" >> $NOMBRE.desktop
+
+echo "Lanzador creado."
+echo "Ahora se moverá al directorio '/usr/share/applications/'."
+echo "Introduce tu contraseña de 'root' si es necesario."
+
+sudo chown root:root $NOMBRE.desktop                        # Hacemos que el lanzador pertenezca a root
+sudo mv $NOMBRE.desktop /usr/share/applications/            # y lo enviamos al directorio de los lanzadores.
+
+read -n 1 -p "Finalizado.  Pulsa una tecla para salir..."
+echo ""
+
+

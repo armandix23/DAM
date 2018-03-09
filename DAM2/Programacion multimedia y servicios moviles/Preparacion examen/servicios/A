@@ -1,0 +1,120 @@
+Crea tu propio ‘script’
+
+Para ejecutar programas de Bash puedes hacerlo directamente desde la consola o terminal de Linux, sin embargo, su mayor potencia radica en que puedas  escribir ‘scripts’ y ejecutar piezas de código para automatizar tus tareas.
+
+Crea un archivo ejecutable, o ‘script’, de comandos Linux. Abre tu editor de texto. En Ubuntu el editor de textos por defecto es Gedit. Haz clic en el logotipo de Ubuntu y escribe en el cuadro de búsqueda gedit o desde la terminal de tu consola ejecuta gedit &.
+
+Cuando hayas abierto tu editor escribe el siguiente código:
+
+#!/bin/bash
+
+echo “Hola mundo”
+
+El programa es parecido al que has ejecutado anteriormente con la leve diferencia de que se ha añadido la línea #!/bin/bash.
+
+Esta línea avisa a Linux de que es un programa de tipo Bash y por tanto deberá interpretar los comandos de dicho programa. Escrito el código, guárdalo pulsando en Archivo, Guardar y con el nombre holamundo.sh. La extensión sh es renococida por muchos editores y marcará con colores las palabras clave.
+Automatiza tu programa
+
+Ahora que has guardado el ‘script’ es hora de ejecutarlo cada vez que quieras realizar todas las tareas programadas en dicho archivo. Esto te permitirá automatizar tus tareas evitándote la tediosa tarea de repetir una y otra vez la serie de comandos que has determinado.
+
+bash 2
+
+El primer paso que tienes que hacer es cambiar los permisos de tu archivo y hacerlos ejecutables. Para ello escribe el comando chmod u+x holamundo.sh. 
+
+Este comando transforma el fichero de tal manera que puedas ejecutar el ‘script’ fácilmente. Para iniciar el ‘script’ simplemente escribe el nombre del fichero precedido de ./. Para el ejemplo anterior sería ./holamundo.sh.
+
+Como puedes observar, se reproduce el mismo programa que has iniciado antes. Esto te va a permitir escribir en el archivo ‘holamundo.sh’ todos los comandos que necesites evitando que lo ejecutes uno por uno.
+2: Características de Bash
+
+Cuando has aprendido cómo ejecutar y crear ‘scripts’ tienes que conocer las características de Bash. Esto te permitirá tener un control sobre los comandos y poder personalizarlos como desees para poder automatizar tareas en Linux.
+Comentarios
+
+Los comentarios en Bash se hacen línea a línea y con el símbolo # al principio de ella. Esto puede ser útil cuando tu programa es muy grande y quieras poner explicaciones sobre qué trata cada parte.
+
+Un ejemplo sería el siguiente código:
+
+#!/bin/bash  
+
+#  
+
+# Hola Mundo comentado  
+
+#  echo “Hola mundo” 
+Variables
+
+En programación, las variables son estructuras de datos que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. Las variables en Bash no tienen tipo, es decir, una variable puede contener una cadena o un número sin necesidad de que lo definas.
+
+La sintaxis es:
+
+nombre_variable=valor_variable
+
+Es obligatorio que no dejes espacios antes o después del símbolo ‘=’ ya que sino Bash interpretaría la variable como un comando Linux. 
+
+Para acceder a una variable simplemente escribe como prefijo $ en el nombre de la variable. echo $varname
+
+Prueba con este ejemplo sencillo:
+
+#!/bin/bash  
+
+# Asignación y salida de variables  
+
+mivariable=”Me llamo Nacho”  
+
+echo $mivariable  
+
+Como puedes observar la línea echo $mivariable ejecutará todo lo contenido entre comillas de la línea anterior.
+Paso de variables
+
+Al ejecutar el ‘script’ desde tu terminal o consola puedes pasarle más argumentos. Por ejemplo:
+
+./miScript.sh hola 4
+
+Para recoger estos valores, hola y 4, escribe $ y a continuación el número de posición del argumento pasado. El primer argumento tiene valor $1, que sería ‘hola’, y el segundo sería $2, en
+el ejemplo sería el número ‘4’. La variable $0 es el nombre del archivo. 
+
+Por ejemplo: 
+
+#!/bin/bash  
+
+#  
+
+# Paso de variables  
+
+#  
+
+echo “Tu primer argumento es” $1  
+
+echo “Tu segundo argumento es” $2  
+
+Hay que destacar que $? guarda el valor de salida del último comando ejecutado, $* almacena todos los argumentos y $# es el número de argumentos pasados.
+3: Comandos Linux
+
+Existe una gran cantidad de comandos ya sean para ayuda, para manejo de archivos y directorios, para manejo de usuarios, de procesos, de disco, de sistema, de red, de impresoras, etc. Esta es una lista de algunos de ellos.
+Comandos de ayuda
+
+Los siguientes comandos te proporcionan información y ayuda sobre los diferentes comandos.
+
+man: muestra el manual del comando que le indiquemos.
+
+El comando--help: muestra una ayuda de los comandos.
+Comandos de archivos y directorios
+
+Hay otro tipo de órdenes que te permiten moverte y administrar los archivos y directorios de tu sistema Linux. Aquí te mostramos algunos de ellos
+
+ls: lista los archivos y directorios.
+
+cd: cambia de directorio.
+
+pwd: muestra la ruta al directorio actual.
+
+mkdir: crea un directorio.
+
+rmdir: borra un directorio.
+
+rm -r: borra directorios no vacíos.
+
+cp: copia archivos.
+
+rm: borra archivos.
+
+mv: mueve o renombra archivos y directorios.

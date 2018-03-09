@@ -1,0 +1,63 @@
+---lanzademonio---
+#!/bin/bash
+# source function library
+. /etc/rc.d/init.d/functions
+# pull in sysconfig settings
+[ -f /etc/sysconfig/dimelahora ] && . /etc/sysconfig/dimelahora
+
+RETVAL=0
+prog="DimeLaHora"
+
+# Some functions to make the below more readable
+dimelahorad=/usr/local/bin/dimelahora
+
+start()
+{
+echo -n $"Starting $prog:"
+daemon +19 $dimelahorad -s
+RETVAL=$?
+[ "$RETVAL" -eq 0 ] && touch /var/lock/subsys/dimelahora
+echo
+}
+
+stop()
+{
+echo -n $"Stopping $prog:"
+killproc $dimelahorad -TERM
+RETVAL=$?
+[ "$RETVAL" = 0 ] && rm -f /var/lock/subsys/dimelahora
+echo
+}
+
+case "$1" in
+start)
+start
+;;
+stop)
+stop
+;;
+restart)
+stop
+start
+;;
+condrestart)
+if [ -f /var/lock/subsys/dimelahora ] ; then
+if [ "$RETVAL" = 0 ] ; then
+stop
+# avoid race
+sleep 3
+start
+fi
+fi
+;;
+status)
+status $dimelahorad
+RETVAL=$?
+;;
+*)
+echo $"Usage: $0 {start|stop|restart|condrestart|status}"
+RETVAL=1
+esac
+exit $RETVAL
+---lanzademonio---
+
