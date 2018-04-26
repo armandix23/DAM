@@ -1,0 +1,12 @@
+c:\users\desarrollo\documents\visual studio 2010\Projects\EjercicioClase\EjercicioClase\bin\Debug\EjercicioClase.exe
+c:\users\desarrollo\documents\visual studio 2010\Projects\EjercicioClase\EjercicioClase\bin\Debug\EjercicioClase.pdb
+c:\users\desarrollo\documents\visual studio 2010\Projects\EjercicioClase\EjercicioClase\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\desarrollo\documents\visual studio 2010\Projects\EjercicioClase\EjercicioClase\obj\x86\Debug\EjercicioClase.exe
+c:\users\desarrollo\documents\visual studio 2010\Projects\EjercicioClase\EjercicioClase\obj\x86\Debug\EjercicioClase.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\EjercicioClaseCasa\EjercicioClase\obj\x86\Debug\EjercicioClase.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\EjercicioClaseCasa\EjercicioClase\obj\x86\Debug\EjercicioClase.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\EjercicioClaseCasa\EjercicioClase\bin\Debug\EjercicioClase.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\EjercicioClaseCasa\EjercicioClase\bin\Debug\EjercicioClase.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\EjercicioClaseCasa\EjercicioClase\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\PracticaPapeleriaArmando\EjercicioClase\obj\x86\Debug\EjercicioClase.exe
+C:\Users\Desarrollo\Desktop\PracticaPapeleriaArmando\EjercicioClase\obj\x86\Debug\EjercicioClase.pdb
